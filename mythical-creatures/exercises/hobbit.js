@@ -8,7 +8,7 @@ class Hobbit {
   celebrateBirthday() {
     this.age++
     if (this.age > 32 && this.age < 101) {
-      return this.old = true
+      return this.adult = true
     } else if (this.age > 100) {
       return this.old = true
     }
