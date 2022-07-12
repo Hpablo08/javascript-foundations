@@ -4,6 +4,7 @@ class Hobbit {
     this.age = 0
     this.adult = false
     this.old = false
+    this.hasRIng = true
   }
   celebrateBirthday() {
     this.age++
@@ -13,9 +14,18 @@ class Hobbit {
       return this.old = true
     }
   }
-  }
-
-
+    getRing() {
+      console.log(this.name)
+    if (this.name === 'Frodo') {
+      this.hasRing = true;
+      return 'Here is the ring!';
+    } else if (this.name === 'Samwise') {
+          this.hasRing = false;{
+      return 'You can\'t have it!'
+        }
+}
+}
+}
 
 
 
