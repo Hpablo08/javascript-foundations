@@ -4,10 +4,15 @@ class Pirate {
     this.job = job || 'scallywag'
     this.cursed = false
     this.booty = 0
+    this.cursed = true
   }
   robShip(){
-    this.booty = +100
+    this.booty += 100
     return 'YAARRR!'
+    if (this.booty = 500){
+      
+
+    }
 
   }
 }
