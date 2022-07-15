@@ -7,7 +7,7 @@ class Pirate {
     this.cursed = false
   }
   robShip(){
-        if (this.booty === 500) //stopping the arguement at 50
+        if (this.booty >= 500) //stopping the arguement at 50
         {
            this.cursed = true
            return 'ARG! I\'ve been cursed!' //stopping conditional with the return statement
@@ -16,7 +16,18 @@ class Pirate {
         }
         return 'YAARRR!'
           }
-        }
+  timeTravel(){
+  }
+
+  liftCurse(){
+    if (this.booty === 100){
+ return  'You don\'t need to lift a curse!'
+} else if ( this.booty = 200){
+  this.cursed = false
+return'Your curse has been lifted!'
+}
+  }
+   }
 
 
 
