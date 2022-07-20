@@ -1,6 +1,6 @@
 class Hobbit {
   constructor(data) { //({name:name})
-    this.name = data.name // follow the tree
+    this.name = data.name // follow the tree the test has an object as a parameter
     this.age = 0
     this.adult = false
     this.old = false
