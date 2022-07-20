@@ -9,14 +9,14 @@ class Dragon {
     //console.log(this.rider)
     return `Hi, ${this.rider}!`
   }
-  eat()   {
+  eat() {
 
-    this.eaten ++
+    this.eaten++
     if (this.eaten >= 3) {
       return this.hungry = false
     } //var eats = 0 another way for counting
     // eats ++
     // if (eat >=3) {return this.hungry = false
-}
+  }
 }
 module.exports = Dragon;
